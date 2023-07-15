@@ -221,7 +221,7 @@ def main():
         
 
         # Perform predictions and recommendations
-        if st.button("Generate Recommendations"):
+        if st.button("Generate Investment Prediction"):
             # Update the features with user inputs
             features = [founded_year, time_to_first_funding, city, round_D, round_C, funding_rounds, industry_group, round_F, region, round_B]
 
