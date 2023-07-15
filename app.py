@@ -229,7 +229,7 @@ def main():
             prediction = predict_total_investment(features)
 
             # Display the prediction
-            st.subheader("Investment Prediction:")
+            st.subheader("Investment Prediction in dollars:")
             st.write(f"**{prediction}**")
 
             # Reverting back to no data
