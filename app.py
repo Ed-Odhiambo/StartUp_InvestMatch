@@ -230,7 +230,7 @@ def main():
 
             # Display the prediction
             st.subheader("Investment Prediction in dollars:")
-            st.write(f"**{prediction}**")
+            st.markdown(f"<p style='color: black;'>{prediction}</p>", unsafe_allow_html=True)
 
             # Reverting back to no data
             st.button("Revert")
