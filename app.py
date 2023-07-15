@@ -199,7 +199,7 @@ def main():
         founded_year = st.sidebar.selectbox("Founded Year", list(range(1980, 2024)))
         
         # Input for funding year
-        time_to_first_funding = st.sidebar.number_input("Time to First Funding(Yrs)", min_value=0)
+        time_to_first_funding = st.sidebar.number_input("Time to First Funding (Yrs)", min_value=0)
                       
         # Dropdown for Funding Rounds
         funding_rounds = st.sidebar.slider("Funding Rounds", min_value=1, max_value=18, value=1)
